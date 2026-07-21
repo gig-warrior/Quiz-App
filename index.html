@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Knowledge Test</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+</head>
+<body>
+    <!-- =================================
+            START QUIZ SCREEN
+    ================================= -->
+
+    <div class="startingScreen">
+        <div class="container">
+            <p id="heading">Knowledge Test</p>
+            <div class="startQuizButton">Start Test</div>
+        </div>
+    </div>
+
+    <!-- =================================
+            LOADING SCREEN
+    ================================= -->
+    <div class="loadingScreen">
+        <div class="container">
+            <p id="heading">Loading Questions...</p>
+        </div>
+    </div>
+
+    <!-- ===============================
+            QUIZ SCREEN
+    =============================== -->
+    <div class="quizScreen">
+        <div class="questionNO">
+            <p>Question</p>
+            <p id="currNum">1/10</p> 
+        </div>
+        <div class="quizBox">
+            <div class="questionBox"></div>
+            <div class="timerBox">
+                <p>Time</p>
+                <div class="timebar">
+                    <div class="progress"></div>
+                </div>
+                <div class="time">00:10</div>
+            </div>
+            <div class="optBoxes">
+                <div class="opt-box">
+                    <div class="opt-letter">A</div>
+                    <div class="opt" id="opt-A"></div>
+                    <div class="checkbox">
+                        <img src="unchecked.png">
+                    </div>
+                </div>
+                <div class="opt-box">
+                    <div class="opt-letter">B</div>
+                    <div class="opt" id="opt-B"></div>
+                    <div class="checkbox">
+                        <img src="unchecked.png">
+                    </div>
+                </div>
+                <div class="opt-box">
+                    <div class="opt-letter">C</div>
+                    <div class="opt" id="opt-C"></div>
+                    <div class="checkbox">
+                        <img src="unchecked.png">
+                    </div>
+                </div>
+                <div class="opt-box">
+                    <div class="opt-letter">D</div>
+                    <div class="opt" id="opt-D"></div>
+                    <div class="checkbox">
+                        <img src="unchecked.png">
+                    </div>
+                </div>
+            </div>
+            <div class="next">
+                <i class="fa-solid fa-forward"></i>
+                <p>Next</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===============================
+            TIME UP SCREEN
+    =============================== -->
+    <div class="time-upScreen">
+        <div class="container">
+            <p id="msg">
+                Time UP! 
+                <br>
+                Try to answer within the time limit
+            </p>
+            <div class="restartQuizButton">Restart Test</div>
+        </div>
+    </div>
+
+    <!-- ===============================
+            FINAL SCORE SCREEN
+    =============================== -->
+    <div class="finalScoreScreen">
+        <div class="containerFinalScore">
+            <div class="container1">
+                <div class="pointBox">
+                    <p>Correct Answer</p>
+                    <p id="points">1/10</p> 
+                </div>
+            </div>
+            <div class="container2">
+                <p id="finishMsg">Congratulations!, you've completed the quiz</p>
+                <div class="gotoHomeButton">Go to home</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
