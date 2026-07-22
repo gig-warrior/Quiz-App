@@ -5,6 +5,7 @@ A responsive Quiz Application built using HTML, CSS and JavaScript. The app fetc
 [Try the Quiz App](https://gig-warrior.github.io/Quiz-App/)
 
 ## Screenshots
+![Quiz App Screenshot](screenshot.png)
 
 ## Features
 - Start Screen
