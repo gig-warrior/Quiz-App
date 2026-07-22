@@ -7,7 +7,7 @@ A responsive Quiz Application built using HTML, CSS and JavaScript. The app fetc
 ## Screenshots
 
 ## Features
-Start Screen
+- Start Screen
 - Loading Screen
 - Quiz API Integration
 - Random Questions
